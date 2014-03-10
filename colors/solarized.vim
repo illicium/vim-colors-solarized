@@ -977,6 +977,10 @@ exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
 "}}}
+" javascript highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! jsStorageClass" .s:fg_green s:bg_none .s:fmt_none
+"}}}
 " syntastic syntax highlighting "{{{
 " ---------------------------------------------------------------------
 " https://github.com/airblade/vim-gitgutter
