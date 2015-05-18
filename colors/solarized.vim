@@ -984,12 +984,8 @@ exe "hi! jsStorageClass"                 .s:fg_green  .s:bg_none  .s:fmt_none
 " ---------------------------------------------------------------------
 " https://github.com/airblade/vim-gitgutter
 " ---------------------------------------------------------------------
-exe   "hi!   SyntasticErrorSign"   . s:fmt_none . s:fg_red    . s:bg_base02
-exe   "hi!   SyntasticWarningSign" . s:fmt_none . s:fg_orange . s:bg_base02
-
-" SyntasticErrorSign - For syntax errors, links to 'error' by default
-" SyntasticWarningSign - For syntax warnings, links to 'todo' by default
-
+exe "hi! SyntasticErrorSign"             .s:fg_red    .s:bg_base02 .s:fmt_none
+exe "hi! SyntasticWarningSign"           .s:fg_yellow .s:bg_base02 .s:fmt_none
 "}}}
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
