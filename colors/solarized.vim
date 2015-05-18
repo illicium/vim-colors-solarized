@@ -962,23 +962,23 @@ exe "hi! pandocSubscript"                .s:fg_violet .s:bg_none  .s:fmt_none
 exe "hi! pandocRule"                     .s:fg_blue   .s:bg_none  .s:fmt_bold
 exe "hi! pandocRuleLine"                 .s:fg_blue   .s:bg_none  .s:fmt_bold
 exe "hi! pandocEscapePair"               .s:fg_red    .s:bg_none  .s:fmt_bold
-exe "hi! pandocCitationRef"              .s:fg_magenta.s:bg_none   .s:fmt_none
-exe "hi! pandocNonBreakingSpace"         . s:fg_red   .s:bg_none  .s:fmt_revr
+exe "hi! pandocCitationRef"              .s:fg_magenta.s:bg_none  .s:fmt_none
+exe "hi! pandocNonBreakingSpace"         .s:fg_red    .s:bg_none  .s:fmt_revr
 hi! link pandocEscapedCharacter          pandocEscapePair
 hi! link pandocLineBreak                 pandocEscapePair
 
 " Embedded Code
 " ---------------------------------------------------------------------
-exe "hi! pandocMetadataDelim"            .s:fg_base01 .s:bg_none   .s:fmt_none
-exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_none
-exe "hi! pandocMetadataKey"              .s:fg_blue   .s:bg_none   .s:fmt_none
-exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
+exe "hi! pandocMetadataDelim"            .s:fg_base01 .s:bg_none  .s:fmt_none
+exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none  .s:fmt_none
+exe "hi! pandocMetadataKey"              .s:fg_blue   .s:bg_none  .s:fmt_none
+exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none  .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
 "}}}
-" javascript highlighting "{{{
+" JavaScript highlighting "{{{
 " ---------------------------------------------------------------------
-exe "hi! jsStorageClass" .s:fg_green s:bg_none .s:fmt_none
+exe "hi! jsStorageClass"                 .s:fg_green  .s:bg_none  .s:fmt_none
 "}}}
 " syntastic syntax highlighting "{{{
 " ---------------------------------------------------------------------
