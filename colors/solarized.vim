@@ -987,6 +987,12 @@ exe "hi! jsStorageClass"                 .s:fg_green  .s:bg_none  .s:fmt_none
 exe "hi! SyntasticErrorSign"             .s:fg_red    .s:bg_base02 .s:fmt_none
 exe "hi! SyntasticWarningSign"           .s:fg_yellow .s:bg_base02 .s:fmt_none
 "}}}
+" Clojure highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! clojureParen"                   .s:fg_none    .s:bg_none  .s:fmt_none
+exe "hi! clojureDefine"                  .s:fg_violet  .s:bg_none  .s:fmt_none
+exe "hi! clojureMacro"                   .s:fg_blue    .s:bg_none  .s:fmt_none
+"}}}
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
 " In cases where Solarized is initialized inside a terminal vim session and 
